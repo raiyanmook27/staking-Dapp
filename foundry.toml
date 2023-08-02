@@ -3,4 +3,10 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+[rpc_endpoints]
+avalanche = "${AVALANCHE_RPC_URL}"
+
+[etherscan]
+arbitrum = { key = "${ARBISCAN_API_KEY}" }
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
